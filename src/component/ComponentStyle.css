@@ -1,0 +1,67 @@
+/** @format */
+* {
+  box-sizing: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+}
+
+header h3 {
+  padding-top: 10px;
+}
+
+.image-div1 {
+  background-image: url('./Images/content1.jpeg');
+  transition: 1.5s ease-in-out;
+  width: 722px;
+  height: 480px;
+  background-repeat: no-repeat;
+}
+
+.image-div2 {
+  background-image: url('./Images/content2.jpg');
+  transition: 1.5s ease-in-out;
+  width: 722px;
+  height: 480px;
+  background-repeat: no-repeat;
+}
+
+.image-div3 {
+  background-image: url('./Images/content3.jpeg');
+  transition: 1.5s ease-in-out;
+  width: 722px;
+  height: 480px;
+  background-repeat: no-repeat;
+}
+
+#button1 {
+  height: 0px;
+}
+
+#button2 {
+  height: 0px;
+}
+
+#div-loading {
+  width: 54.5%;
+}
+
+#div-developer-info {
+  width: 54.5%;
+}
+
+#div-progress-bar {
+  width: 54.5%;
+}
+
+#progress-bar {
+  color: blue;
+  background-color: yellow;
+  height: 7px;
+  border-radius: 10px;
+  color: white;
+}
