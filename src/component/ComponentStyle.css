@@ -15,27 +15,27 @@ header h3 {
 }
 
 .image-div1 {
-  background-image: url('./Images/content1.jpeg');
+  background: url('./Images/content1.jpeg') no-repeat center center/cover;
   transition: 1.5s ease-in-out;
   width: 722px;
   height: 480px;
-  background-repeat: no-repeat;
+  /* position: fixed; */
 }
 
 .image-div2 {
-  background-image: url('./Images/content2.jpg');
+  background: url('./Images/content2.jpg') no-repeat center center/cover;
   transition: 1.5s ease-in-out;
   width: 722px;
   height: 480px;
-  background-repeat: no-repeat;
+  /* position: fixed; */
 }
 
 .image-div3 {
-  background-image: url('./Images/content3.jpeg');
+  background: url('./Images/content3.jpeg') no-repeat center center/cover;
   transition: 1.5s ease-in-out;
   width: 722px;
   height: 480px;
-  background-repeat: no-repeat;
+  /* position: fixed; */
 }
 
 #button1 {
